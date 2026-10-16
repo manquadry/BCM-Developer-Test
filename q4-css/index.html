@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q4 – Responsive grid layout</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- Source order = mobile reading order (A, D, B, C, G), then desktop-only boxes.
+	     Keyboard focus and screen readers follow this order on every screen size. -->
+	<main class="layout">
+		<section class="box a"><h2>A – A deliberately long heading to check that wrapping does not break the grid layout at any width</h2><p><a href="#">Link A</a></p></section>
+		<section class="box d"><h2>D</h2><p><a href="#">Link D</a></p></section>
+		<section class="box b"><h2>B</h2><p><a href="#">Link B</a></p></section>
+		<section class="box c"><h2>C</h2><p><a href="#">Link C</a></p></section>
+		<section class="box g"><h2>G</h2><p><a href="#">Link G</a></p></section>
+		<section class="box e desktop-only"><h2>E</h2></section>
+		<section class="box f desktop-only"><h2>F</h2></section>
+		<section class="box h desktop-only"><h2>H</h2></section>
+	</main>
+</body>
+</html>
